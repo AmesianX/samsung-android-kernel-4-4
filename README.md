@@ -37,7 +37,6 @@ CONFIG_CMDLINE=”console=ttyAMA0”
 CONFIG_NET_9P=y
 CONFIG_NET_9P_VIRTIO=y
 CONFIG_CROSS_COMPILE="aarch64-linux-gnu-"
-```
 
 
 ################################################################################
@@ -71,3 +70,4 @@ daveti
 3. How to Clean	
 		$ make clean
 ################################################################################
+```
