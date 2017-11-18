@@ -1,3 +1,4 @@
+```
 Kernel$ apt-get install -y gcc-aarch64-linux-gnu bc
 Kernel$ dos2unix drivers/sensorhub/brcm/bbdpl/Kconfig
 Kernel$ ARCH=arm64 ANDROID_MAJOR_VERSION=7 CROSS_COMPILE=aarch64-linux-gnu- make exynos8895-dreamlte_eur_open_defconfig
@@ -36,7 +37,7 @@ CONFIG_CMDLINE=”console=ttyAMA0”
 CONFIG_NET_9P=y
 CONFIG_NET_9P_VIRTIO=y
 CONFIG_CROSS_COMPILE="aarch64-linux-gnu-"
-
+```
 
 
 ################################################################################
